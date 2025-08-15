@@ -4,20 +4,19 @@ version: 1.0.0
 homepage: https://github.com/ogabrielinacio/esp_provisioning_ble
 
 environment:
-  sdk: '>=3.1.0-331.0.dev <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
     sdk: flutter
-  protobuf: ^3.0.0
-  cryptography: ^2.5.0
-  collection: ^1.17.2
+  protobuf: ^4.2.0
+  cryptography: ^2.7.0
+  collection: ^1.19.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   plugin:
